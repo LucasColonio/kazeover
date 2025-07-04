@@ -1,0 +1,137 @@
+/* ESTILOS GENERALES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.oscureser-fondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#0000009d;
+
+}
+
+/* ESTILOS HEADER */
+.index-header{
+    background-image: url(../img/fondoindex.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    position: relative;
+}
+
+.index-header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-inferior-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    width: 50vh;
+} 
+
+
+.logotipo-index{
+    width: 5rem;
+    height: 5rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.navegacion-superior-index ul li a{
+    color: #ffffff;
+}
+
+.index-parrafoheader, .index-h1 {
+    color: #ffffff;
+
+}
+
+
+
+h1{
+    color: #a52a2a;
+}
+div{
+    color:green
+}
+
+.titulo-mujer{
+    color: blue;
+    text-transform: uppercase;
+}
+
+.parrafo-mujer{
+    color: gray;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+/* ESTILOS MAIN */
+.padding-box {
+    width: 200px;
+    height: 50px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.caja1{
+    height: 50vh;
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid coral;
+    line-height: 100px;
+    margin: 10px;
+    flex-grow: 1;
+    order: 3;
+}
+
+
+.contenedor {
+    display: flex; 
+    padding: 10px;
+    justify-content:space-around;
+    align-items: center;
+    flex-grow: 2;
+    flex-flow:wrap ;
+
+}
+
+
+.nuestrasremeras-index{
+    text-align: center;
+}
+.remeraindex{
+    width: 25rem;
+    background-color: #e68888b9;
+}
+.remeraindex img{
+    width: 100%;
+}
+.btn-remera-index{
+    width: 100%;
+}
+
+/* ESTILOS FOOTER */
+footer{
+    background-color: #000000;
+    height: 20vh;
+}
