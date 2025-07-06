@@ -26,6 +26,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
 .contenedor-inferior-header{
@@ -33,9 +34,19 @@
     flex-direction: column;
     justify-content: center;
     height: 50vh;
-    width: 50vh;
+    max width: 63vh;
+    padding: 3rem;
+    gap: 1rem;
 } 
 
+.btn-header{
+    background-color: #ffffff;
+    border: none;
+    color: #8f4e4e;
+    font-weight: 600;
+    padding: 15px ;
+    margin-top: 2rem;
+}
 
 .logotipo-index{
     width: 5rem;
@@ -45,6 +56,8 @@
 ul{
     list-style: none;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 1rem;
 }
 .navegacion-superior-index ul li a{
@@ -57,19 +70,6 @@ ul{
 }
 
 
-
-h1{
-    color: #a52a2a;
-}
-div{
-    color:green
-}
-
-.titulo-mujer{
-    color: blue;
-    text-transform: uppercase;
-}
-
 .parrafo-mujer{
     color: gray;
     font-style: italic;
@@ -77,61 +77,72 @@ div{
 }
 
 /* ESTILOS MAIN */
-.padding-box {
-    width: 200px;
-    height: 50px;
-    background-color: lightgray;
-    padding: 20px;
+.index-main{
+    margin: 2rem 2rem;
 }
 
-
-.relative-box {
-    position: relative;
-    top: 20px;
-    left: 10px;
-    background-color: lightblue;
-    padding: 10px;
-}
-
-.caja1{
-    height: 50vh;
-    background-color: aqua;
+.nuestrasremeras-index-h2{
     text-align: center;
-    border: 2px solid coral;
-    line-height: 100px;
-    margin: 10px;
-    flex-grow: 1;
-    order: 3;
+    margin-bottom: 1rem;
 }
 
-
-.contenedor {
+.ultimos-oversize-contenedor {
     display: flex; 
-    padding: 10px;
-    justify-content:space-around;
-    align-items: center;
-    flex-grow: 2;
-    flex-flow:wrap ;
+    flex-wrap:wrap;
+    gap: 1rem;
+    justify-content: center;
 
 }
 
-
-.nuestrasremeras-index{
-    text-align: center;
+.remeraindex:hover{
+    transform:scale(1.01) ;
 }
 .remeraindex{
+    transition: transform 0.5s;
     width: 25rem;
     background-color: #e68888b9;
+    border-radius: 0.5rem;
 }
+ 
 .remeraindex img{
     width: 100%;
 }
 .btn-remera-index{
+    border-radius: 0.5rem;
     width: 100%;
+    background-color: #ff0000;
+    border: none;
+    padding: 0.5rem ;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0.6rem;
+
+
 }
 
 /* ESTILOS FOOTER */
 footer{
-    background-color: #000000;
+    background-color: #ffffff;
     height: 20vh;
+    padding: 48px;
+}
+.linea-index-footer{
+    margin: 0 0 60px;
+    height: 1px;
+    background-color: #808080;
+}
+
+.falso-index-footer{
+    display: flex;
+    gap: 12px;
+}
+.columna-index-footer{
+    width:100%;
+}
+
+@media only screen and (min-width: 720px){
+    ul,.index-header-flex{
+        flex-direction: row;
+    }
 }
