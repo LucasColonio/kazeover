@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
     <title>KAZEOVER</title>
     <link rel="stylesheet" href="./Estilos/style.css">
 </head>
@@ -14,7 +19,46 @@
     <header class="index-header">
         <div class="oscureser-fondo">
             <div class="index-header-flex">
-                <h1 class="index-h1">KAZEOVER</h1>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 position-fixed top-0">
+                    <div class="container-fluid ">
+                        <a class="navbar-brand" href="index.html">KAZEOVER</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+
+                            <div>
+                                <span class="navbar-toggler-icon"></span>
+                            </div>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/hombre.html">Hombre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/mujer.html">Mujer</a>
+                                </li>
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./img/nav-icon-busqueda.png"> <i
+                                                class="bi bi-search fs-5"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- 
                 <nav class="navegacion-superior-index">
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
@@ -24,7 +68,11 @@
                         <li><a href="./pages/buscar.html">Buscar</a></li>
                         <li><a href="./pages/carrito.html">Carrito</a></li>
                     </ul>
-                </nav>
+                </nav> -->
+
+
+
+
             </div>
 
             <div class="contenedor-inferior-header">
@@ -38,14 +86,14 @@
         </div>
     </header>
 
-    <main class="index-main">
+    <main class="index-main py-3">
         <h2 class="nuestrasremeras-index-h2">Nuestras remeras</h2>
 
         <div class="ultimos-oversize-contenedor">
 
             <section class="remeraindex">
                 <img src="./img/Negro.jpeg" alt="remeranegra">
-                <h3>DRACULA</h3>
+                <h3 class="mt-2">DRACULA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur exercitationem molestias minima
                     incidunt reiciendis, voluptatum magni veniam vero ab ex.</p>
                 <p>USD</p>
@@ -54,7 +102,7 @@
 
             <section class="remeraindex">
                 <img src="./img/Negro.jpeg" alt="remeranegra">
-                <h3>DRACULA</h3>
+                <h3 class="mt-2">DRACULA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur exercitationem molestias minima
                     incidunt reiciendis, voluptatum magni veniam vero ab ex.</p>
                 <p>USD</p>
@@ -63,7 +111,7 @@
 
             <section class="remeraindex">
                 <img src="./img/Negro.jpeg" alt="remeranegra">
-                <h3>DRACULA</h3>
+                <h3 class="mt-2">DRACULA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur exercitationem molestias minima
                     incidunt reiciendis, voluptatum magni veniam vero ab ex.</p>
                 <p>USD</p>
@@ -72,7 +120,7 @@
 
             <section class="remeraindex">
                 <img src="./img/Negro.jpeg" alt="remeranegra">
-                <h3>DRACULA</h3>
+                <h3 class="mt-2">DRACULA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur exercitationem molestias minima
                     incidunt reiciendis, voluptatum magni veniam vero ab ex.</p>
                 <p>USD</p>
@@ -81,7 +129,7 @@
 
             <section class="remeraindex">
                 <img src="./img/Negro.jpeg" alt="remeranegra">
-                <h3>DRACULA</h3>
+                <h3 class="mt-2">DRACULA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur exercitationem molestias minima
                     incidunt reiciendis, voluptatum magni veniam vero ab ex.</p>
                 <p>USD</p>
@@ -90,7 +138,7 @@
 
             <section class="remeraindex">
                 <img src="./img/TOokyo.jpeg" alt="Remeratokyo">
-                <h3>TOKIO</h3>
+                <h3 class="mt-2">DRACULA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur exercitationem molestias minima
                     incidunt reiciendis, voluptatum magni veniam vero ab ex.</p>
                 <p>USD</p>
@@ -99,7 +147,7 @@
 
             <section class="remeraindex">
                 <img src="./img/newyork.jpeg" alt="Remeratokyo">
-                <h3>TOKIO</h3>
+                <h3 class="mt-2">DRACULA</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur exercitationem molestias minima
                     incidunt reiciendis, voluptatum magni veniam vero ab ex.</p>
                 <p>USD</p>
@@ -113,7 +161,7 @@
     </main>
 
 
-    <footer class="footerindex">
+    <footer class="footerindex py-3">
         <div class="linea-index-footer"></div>
         <div class="falso-index-footer">
             <div class="columna-index-footer">
@@ -136,6 +184,13 @@
         </div>
     </footer>
 
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
