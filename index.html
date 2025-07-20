@@ -15,7 +15,6 @@
 
 
 <body>
-
     <header class="index-header">
         <div class="oscureser-fondo">
             <div class="index-header-flex">
@@ -65,7 +64,7 @@
 
             </div>
 
-            <div class="contenedor-inferior-header">
+            <div class="contenedor-inferior-header h-100">
                 <p class="index-parrafoheader">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi tenetur dolores quo natus unde
                     voluptatibus iste, aspernatur quia, quod deserunt dolor error debitis iure
@@ -76,13 +75,17 @@
         </div>
     </header>
 
-    <main class="index-main py-3">
-        <h2 class="nuestrasremeras-index-h2">Nuestras remeras</h2>
-        
-        <div class="ultimos-oversize-contenedor">
-            <section class="remeraindex">
-                <div><img src="./img/Negro.jpeg" alt="remeranegra"></div>
-                <div>
+    <!-- MAIN DONDE APARECEN NUESTRAS REMERAS -->
+    <main class="index-main">
+
+        <h2 class="nuestrasremeras-index-h2 align-items-center'">Nuestras remeras</h2>
+
+        <div class="ultimos-oversize-contenedor d-flex col-12 col-md-3 w-100 "><!-- Contenedor de los productos -->
+            
+            <div class="remeraindex ">
+                <div class="productor-remera-img w-100 p-0 "><img src="./img/Negro.jpeg" alt="remeranegra"></div>
+
+                <div class="productor-remera-descripcion">
                     <h3 class="mt-2">DRACULA</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur exercitationem molestias
                         minima
@@ -91,20 +94,7 @@
                     <button class="btn-remera-index">COMPRAR</button>
                 </div>
 
-
-                <div>
-                    <img src="./img/Negro.jpeg" alt="remeranegra">
-                    <div>
-                        <h3 class="mt-2">DRACULA</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur exercitationem molestias
-                            minima
-                            incidunt reiciendis, voluptatum magni veniam vero ab ex.</p>
-                        <p>USD</p>
-                        <button class="btn-remera-index">COMPRAR</button>
-                    </div>
-                </div>
-
-            </section>
+            </div>
 
             <section class="remeraindex">
             </section>
@@ -160,7 +150,7 @@
 
     </main>
 
-    <footer class="footerindex text-start">
+    <footer class="footerindex text-start pt-3">
 
         <div class="footer-conteiner-grid ps-4">
             <div class="div1">
@@ -178,21 +168,22 @@
             <div class="div4">Gift Card</div>
         </div>
 
-        <div class="footer-redessociales d-flex">
+        <div class="footer-redessociales d-flex m-0">
             <div>
                 <div class="d-flex flex-column">
                     <ul class="d-flex">
                         <li>Copyright © UNIQLO Co., Ltd. All rights reserved.</li>
                     </ul>
-                    <div class="d-flex ">
-                        <ul class="d-flex footer-ul flex-row align-items-start">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <ul class="d-flex  footer-ul flex-row align-items-center justify-content-center">
                             <li> <a href=""><img src="./img/logo faceboock.png" alt="FACEBOOCK"></a></li>
                             <li> <a href=""><img src="./img/Logo instagram.png" alt="Instagram"></a></li>
                             <li> <a href=""><img src="./img/youtube_social_icon_dark.png" alt=""></a></li>
                             <li> <a href=""> <img src="./img/tiktok.png" alt="Tiktok"></a></li>
                         </ul>
-
+                        <p class="p-footer-derechos m-0 p-2">Todos los derechos reservados </p>
                     </div>
+
 
                 </div>
             </div>
