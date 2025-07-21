@@ -78,38 +78,14 @@ ul{
 }
 
 /* ESTILOS MAIN */
-.index-main{
-    margin: 2rem 2rem;
-}
 
 .nuestrasremeras-index-h2{
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.ultimos-oversize-contenedor {
-    flex-wrap:wrap;
-    gap: 1rem;
-    justify-content: center;
-
-}
-
-.remeraindex:hover{
-    transform:scale(1.01) ;
-}
-.remeraindex{
-    transition: transform 0.5s;
-    background-color: #e68888b9;
-    border-radius: 0.5rem;
-}
- 
-.remeraindex img {
-    width: 50%;
-}
-
 .btn-remera-index{
     border-radius: 0.5rem;
-    width: 100%;
     background-color: #ff0000;
     border: none;
     padding: 0.5rem ;
@@ -118,6 +94,9 @@ ul{
     text-transform: uppercase;
     margin-top: 0.6rem;
 }
+
+
+
 
 /* ESTILOS FOOTER */
 footer{
@@ -153,8 +132,8 @@ grid-row-gap: 1vh;
     background-color: #000000;
 }
 
-@media only screen and (min-width: 720px){
+/* @media only screen and (min-width: 720px){
     ul,.index-header-flex{
         flex-direction: row;
     }
-}
+} */
