@@ -1,0 +1,34 @@
+// 1. Abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "mq/mq";
+@import "abstracts/extends";
+
+// 2. Layout
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+// 3. Pages
+@import "pages/home";
+@import "pages/men";     
+@import "pages/woman";
+
+
+/* ESTILOS GENERALES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
