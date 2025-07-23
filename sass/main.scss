@@ -2,7 +2,6 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 @import "abstracts/functions";
-@import "mq/mq";
 @import "abstracts/extends";
 
 // 2. Layout
@@ -15,6 +14,7 @@
 @import "pages/men";     
 @import "pages/woman";
 
+@import "mq/mq";
 
 /* ESTILOS GENERALES */
 *{
