@@ -2,19 +2,24 @@
 
 /* ESTILOS FOOTER */
 footer{
-    background-color:$backgroundcolor;
+    background-color:#FFFFFF;
     width:100%;}
+
+.footer-ul {
+    width: 100%;
+    object-fit: cover;
+ }
 
 .footer-ul img{
     height: 40px;
     width: 40px;
-    margin: 0 0.5rem;
+    object-fit: cover;
  }
 
 .p-footer-derechos{
     color: $backgroundcolor;
     text-align: center;
-    width: 100%;;
+    max-width: 100%;;
     background-color: #000000;
 }
 
