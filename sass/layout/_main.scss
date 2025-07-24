@@ -22,27 +22,35 @@
     position: relative;
 }
 
-.carousel-index{
+.img-desktop{
+    display: none;
 }
+
+
+
 .carrusel-foto-index-main{
     width: 100vw;
-    object-fit: contain;
+    object-fit: cover;
      overflow:hidden;
+     height: 100%;
 }
 
 
 .div-index-main{
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
-    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:0;
+
 }
 
  .card-img-index{
     object-fit: cover;
-    height: 25%;
-    width: auto;
-    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     
  }
 

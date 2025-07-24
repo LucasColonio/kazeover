@@ -1,25 +1,30 @@
 /* ESTILOS HEADER */
 .index-header,
-.hombres-header,.mujer-header {
+.hombres-header,
+.mujer-header {
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
-.index-header-flex, {
-    @extend .flexpages;
-    flex-direction: column;
-    justify-content: space-between;
+.index-header-flex,
+{
+@extend .flexpages;
+flex-direction: column;
+justify-content: space-between;
 }
 
-.navbar{
-    height:auto;
-    background-color:$backgroundcolor ;
-    
+.navbar {
+     background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+   z-index: 1000;
+   top: 0;
 }
+
 .carrusel-foto-index-main {
     width: 100%;
-    height:auto;
+    height: auto;
     object-fit: cover;
     margin: 0 auto;
 }
