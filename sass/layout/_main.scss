@@ -1,11 +1,4 @@
-/* ESTILOS MAIN */
-.nuestrasremeras-men-h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 2rem 0;
-}
+/* MAIN INDEX */
 
 .contenido h1 {
     text-align: center;
@@ -56,4 +49,41 @@
     z-index: 10;
     color: white;
 }
+
+
+// MAIN MEN
+
+.nuestrasremeras-men-h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 1300;
+    margin: 2rem 0;
+}
+.contenedor-men{
+display: flex;
+justify-content: center;
+height: 100%;
+}
+
+.img-card {
+  flex: 0 0 50%; // 50% ancho
+  height: 100%;
+  object-fit: cover
+}
+
+.card-img{
+    width: 100%;
+  height: 300px; // o el valor que necesites
+  object-fit: cover;
+}
+.card-info{
+     flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+}
+
 

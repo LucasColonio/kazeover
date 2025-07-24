@@ -1,18 +1,12 @@
 /* ESTILOS HEADER */
 .index-header,
-.hombres-header,
+.hombre-header,
 .mujer-header {
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
-.index-header-flex,
-{
-@extend .flexpages;
-flex-direction: column;
-justify-content: space-between;
-}
 
 .navbar {
     background-color: rgba(255, 255, 255, 0.3);

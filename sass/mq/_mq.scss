@@ -1,11 +1,12 @@
 @media only screen and (min-width: 0px) and (max-width: 425px) {
-   
+
+   // HEADER INDEX
    .carrusel-foto-index {
       width: 100%;
       height: 100%;
       object-fit: cover;
    }
-   
+
    .carrusel-img-index {
       width: 100vw;
       height: 500px;
@@ -13,36 +14,47 @@
       overflow: hidden;
       position: relative;
    }
-   
+
    .img-desktop {
       display: none;
    }
 
-   .div-index-main{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-    
+   .div-index-main {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+
    }
-   
+
    .card-index-div {
       max-width: 50%;
       height: 100%;
-      
 
 
-}
+
+   }
+
    .card-img-index {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      
-      
+
+
    }
-   
+.contenedor-men {
+  flex: 1 1 50%; // 2 por fila en mobile
+}
+.img-card {
+     display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+   // FOOTER INDEX
+
    .footer-index {
       width: 100%;
    }
@@ -75,8 +87,22 @@
 
    }
 
+   // MAIN HOMBRE 
+   .contenedor-cards-men {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
 
+   }
 
+   .img-card {
+    flex: 0 0 25%; // 25% ancho
+  }
+
+   // FOOTER-INDEX
    .footer-index {
       width: 100%;
    }
@@ -87,17 +113,17 @@
 
 @media only screen and (min-width: 769px) {
 
-   .carousel-index{
-    display:none ;
-}
+   .carousel-index {
+      display: none;
+   }
 
 
-.img-desktop{
-    display: block;
-    object-fit: cover;
-    width: 100vw;
-   height: 100%;
-}
+   .img-desktop {
+      display: block;
+      object-fit: cover;
+      width: 100vw;
+      height: 100%;
+   }
 
 
    .carousel-item {
@@ -111,7 +137,7 @@
    }
 
 
-.div-index-main {
+   .div-index-main {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
@@ -122,28 +148,32 @@
 
    }
 
-.card-index-div{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   width: 25%;
-   height: auto;
-   
-}
+   .card-index-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 25%;
+      height: auto;
+
+   }
 
    .card-img-index {
       object-fit: cover;
-      height: 500px ;
+      height: 500px;
       width: 100%;
       flex-shrink: 0;
 
    }
-.carrusel-foto-index-main{
-   height: 95vh;
-}
 
+   .carrusel-foto-index-main {
+      height: 95vh;
+   }
 
+ .img-card {
+    flex: 0 0 25%; // 25% ancho
+  
+  }
 
    .footer-index {
       width: 100%;
