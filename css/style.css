@@ -109,6 +109,7 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 0;
+  height: autoi;
 }
 
 .card-img-index {
