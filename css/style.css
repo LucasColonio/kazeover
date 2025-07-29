@@ -1,9 +1,3 @@
-/* ESTILOS GENERALES */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-boxx;
-}
 .flexpages, ul, .contenedor-inferior-header {
   display: flex;
   align-items: center;
@@ -126,6 +120,7 @@ ul {
   display: flex;
   justify-content: center;
   height: 100%;
+  align-content: flex-start;
 }
 
 .img-card {
@@ -306,4 +301,11 @@ footer {
     width: 100%;
   }
 }
+/* ESTILOS GENERALES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxx;
+}
 
+/*# sourceMappingURL=style.css.map */
