@@ -31,15 +31,14 @@
 
 .div-index-main{
     display: flex;
-    align-items: center;
+    align-content: flex-start;
     flex-wrap: wrap;
-    justify-content: center;
+    object-fit: cover;
 }
 
  .card-img-index{
     height: 100%;
     width: 100%;
-    
  }
 
 
