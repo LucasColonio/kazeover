@@ -144,6 +144,14 @@ ul {
   padding: 10px;
 }
 
+.sobrenosotros-main {
+  font-size: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+  top: 20px;
+}
+
 /* ESTILOS FOOTER */
 footer {
   background-color: #FFFFFF;
