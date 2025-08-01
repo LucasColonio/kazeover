@@ -145,17 +145,32 @@
       flex-shrink: 0;
 
    }
+   // PAGINA MEN
+   .contenedor-men{
+   }
+
+   .img-card {
+      flex: 0 0 25%; // 25% ancho
+    }
+
+.card-img{
+   height: 70vh;
+}
 
    .carrusel-foto-index-main {
       height: 95vh;
    }
 
- .img-card {
-    flex: 0 0 25%; // 25% ancho
-  
-  }
 
    .footer-index {
       width: 100%;
    }
+   
+//MAIN SOBRENOSOTROS
+.img-sobrenosotros{
+   height: 70;
+   width: 100%;
+    
+}
+
 }

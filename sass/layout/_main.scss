@@ -57,12 +57,15 @@
     font-weight: 1300;
     margin: 2rem 0;
 }
+
+
 .contenedor-men{
 display: flex;
 justify-content: center;
 height: 100%;
 align-content: flex-start;
 }
+
 
 .img-card {
   flex: 0 0 50%; // 50% ancho
@@ -93,3 +96,5 @@ align-content: flex-start;
     position: relative;
     top:20px;
 }
+
+

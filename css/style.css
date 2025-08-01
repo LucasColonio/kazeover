@@ -282,13 +282,20 @@ footer {
     width: 100%;
     flex-shrink: 0;
   }
-  .carrusel-foto-index-main {
-    height: 95vh;
-  }
   .img-card {
     flex: 0 0 25%;
   }
+  .card-img {
+    height: 70vh;
+  }
+  .carrusel-foto-index-main {
+    height: 95vh;
+  }
   .footer-index {
+    width: 100%;
+  }
+  .img-sobrenosotros {
+    height: 70;
     width: 100%;
   }
 }
