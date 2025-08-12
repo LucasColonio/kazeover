@@ -170,6 +170,12 @@ ul {
   top: 20px;
 }
 
+.img-sobrenosotros {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
 /* ESTILOS FOOTER */
 footer {
   background-color: #FFFFFF;
@@ -258,6 +264,11 @@ footer {
   .footer-index {
     width: 100%;
   }
+  .img-sobrenosotros {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 @media only screen and (min-width: 769px) {
   .carousel-index {
@@ -309,8 +320,8 @@ footer {
     width: 100%;
   }
   .img-sobrenosotros {
-    height: 70;
-    width: 100%;
+    height: 100%;
+    width: 400px;
   }
 }
 /* ESTILOS GENERALES */
