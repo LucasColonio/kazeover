@@ -32,13 +32,29 @@
     align-items: flex-start;
     flex-wrap: wrap;
 }
+.card-index-div{
+    max-width: 100%;
+    height: 100%;
+    align-items: start;
+    flex-flow:wrap ;
 
+}
  .card-img-index{
-    height: 250px;
+    height:250px;
     width: 100%;
-     object-fit: cover;
+    object-fit: cover;
  }
 
+ .link-remera-index{
+text-decoration: none; 
+color: inherit;
+display: flex  ;
+flex-direction: column;
+align-items: start;
+flex-direction: column;
+flex-wrap: wrap;
+width: 50%;
+}
 
 
 .contenido {
